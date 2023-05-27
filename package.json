@@ -9,17 +9,9 @@
 
     
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sumitkprasad123/mock-5.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sumitkprasad123/mock-5/issues"
-  },
-  "homepage": "https://github.com/sumitkprasad123/mock-5#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
