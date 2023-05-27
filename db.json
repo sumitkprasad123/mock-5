@@ -1,9 +1,106 @@
 {
-    "posts": [
-      { "id": 5, "title": "holiday", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "password": "456789",
+      "profession": "Web Developer",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "hourly_rate": 25,
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt-JmDfLz7ErRiTZ9vIme55A9JGQqdx8qJ_xQ_lB2UIqGAFELpsKQQ8xuTSrlqrly-tSQ&usqp=CAU",
+      "isBooked": false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@gmail.com",
+      "password": "456123",
+      "profession": "Graphic Designer",
+      "skills": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "hourly_rate": 30,
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFM0sNASFmDi6-GHriCjp14Sdy7AFJb3x8yw&usqp=CAU",
+      "isBooked": true
+    },
+    {
+      "name": "sumit",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCrgWSayYrKu-nMuVPHgrVTyVEUJ-f8dnRw&usqp=CAU",
+      "email": "sumitk305@gmail.com",
+      "password": "123456",
+      "proffession": "webdeveloper",
+      "skills": [
+        "html",
+        "css",
+        "js"
+      ],
+      "hourly_rate": "25",
+      "isBooked": false,
+      "id": 4
+    },
+    {
+      "name": "katrina",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTtT3Tng9d96kc5La8_wgtqjwuCwRAC1npyg&usqp=CAU",
+      "email": "k@gmail.com",
+      "password": "124578",
+      "proffession": "student",
+      "skills": [
+        "photoshop",
+        "dca"
+      ],
+      "hourly_rate": "20",
+      "isBooked": false,
+      "id": 5
+    },
+    {
+      "id": 7,
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "password": "456789",
+      "profession": "Web Developer",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "hourly_rate": 25,
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt-JmDfLz7ErRiTZ9vIme55A9JGQqdx8qJ_xQ_lB2UIqGAFELpsKQQ8xuTSrlqrly-tSQ&usqp=CAU",
+      "isBooked": false
+    },
+    {
+      "id": 8,
+      "name": "Jane Smith",
+      "email": "jane@gmail.com",
+      "password": "456123",
+      "profession": "Graphic Designer",
+      "skills": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "hourly_rate": 30,
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFM0sNASFmDi6-GHriCjp14Sdy7AFJb3x8yw&usqp=CAU",
+      "isBooked": true
+    },
+    {
+      "name": "sumit",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCrgWSayYrKu-nMuVPHgrVTyVEUJ-f8dnRw&usqp=CAU",
+      "email": "sumitk305@gmail.com",
+      "password": "123456",
+      "proffession": "webdeveloper",
+      "skills": [
+        "html",
+        "css",
+        "js"
+      ],
+      "hourly_rate": "25",
+      "isBooked": false,
+      "id": 9
+    }
+  ]
+}
